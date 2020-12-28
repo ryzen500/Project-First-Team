@@ -1,0 +1,216 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #e2dcdcf3;
+    border: 1px solid #00000031;
+    background-size: cover;
+}
+header{
+    background-color: #0077ff;
+    width: 100%;
+    height: 85px;
+    position: relative;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(#024086,#0077ff);
+    position: fixed;
+    z-index: 1000;
+    padding: 5px 5px 5px -1px;
+    margin-top: -5px;
+}
+.logo{
+  width: 60px;
+  height: 58px;
+  margin: 10px;
+  float: left;
+}
+h1{
+    color: #e5ff00;
+    font-size: 32px;
+    text-align: justify;
+    margin-top: 15px;
+    text-shadow: 3px 1px #2e2e2e;
+}
+li {
+    float: right;
+    position: fixed;
+    z-index: 1000;
+  }
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1px 5px;
+    text-decoration: "Berlin Sans FB";
+    margin-top: -44px;
+  }
+  li a:hover, .dropdown:hover .dropbtn {
+      background-color: rgba(255, 255, 255, 0);
+    }
+  li.dropdown {
+      display: inline-block;
+    }
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgb(0, 0, 0);
+      z-index: 1000;
+      right: 0;
+      width: 200px;
+    }
+  .desc {
+      padding: 10px;
+      text-align: center;
+      }
+  .dropdown-content a {
+      color: rgb(0, 0, 0);
+      padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        margin-top: 4px;
+  }
+  .dropdown-content a:hover {background-color: rgba(255, 255, 255, 0);}
+  .dropdown:hover .dropdown-content {
+    display: block;}
+  .hidden { visibility: hidden;}
+  .nav {
+    height: 60px;
+    width: 100%;
+    display: inline-block;
+  }
+  .nav li {
+    float: right;
+    list-style-type: none;
+    position: relative;
+  }
+  .nav li a {
+    font-size: 16px;
+    color: white;
+    display: block;
+    line-height: 60px;
+    padding: 0 26px;
+    text-decoration: none;
+    border-left: 1px solid #2e2e2e;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+  .nav li a:hover {
+    background-color: #2e2e2e;
+  }
+  
+  #settings a {
+    padding: 18px;
+    height: 24px;
+    font-size: 10px;
+    line-height: 24px;
+  }
+  /*buat search*/
+  #search {
+    width: 357px;
+    margin: 4px;
+    margin-top: -38px;
+  }
+  #search_text{
+      width: 297px;
+      padding: 15px 0 15px 20px;
+      font-size: 16px;
+      font-family: Montserrat, sans-serif;
+      border: 0 none;
+      height: 52px;
+      margin-right: 0;
+      color: rgb(0, 0, 0);
+      outline: none;
+      background: #edeeed;
+      float: left;
+      box-sizing: border-box;
+      transition: all 0.15s;
+    }
+    ::-webkit-input-placeholder { /* WebKit browsers */
+      color: rgb(0, 0, 0);
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+      color: rgb(0, 0, 0);
+    }
+    #search_text:focus {
+      background: #edeeed;
+    }
+  #search_button {
+      border: 0 none;
+      background: #c5c7c5 url(gambar/search.png) center no-repeat;
+      width: 60px;
+      float: left;
+      padding: 0;
+      text-align: center;
+      height: 52px;
+      cursor: pointer;
+    }
+.parallax{
+    background-image: url(gambar/school.jpg);
+    width: 100%;
+    height: 380px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 16px;
+    margin: 30px 7px 7px 7px;
+    word-spacing: 3px;
+}
+.box{
+  margin: 0 auto;
+  width: 1500px;
+}
+.move{
+    float: left;
+    position: relative;
+    width: 400px;
+    border: 2px solid #232323;
+    box-shadow: 4px 4px #302f2fbb;
+    margin: 25px 15px;
+}
+ marquee:hover{
+     cursor: pointer;
+ }
+ .move img{
+   width: 100%;
+   border: 2px solid #45c9f1e1;
+ }
+  h2{
+    background-color: #2e2e2ec5;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px #24baf5c5;
+    margin-bottom: 50px;
+    color: #ffffff;
+    height: 30px;
+  }
+  h3{
+      background-color: #ffffff94;
+      font-size: 25px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      text-shadow: 2px 1px #2e2e2ec5;
+  }
+  footer {
+    clear: both;
+    color: #ffffff;
+    background: linear-gradient(#0077ff,#035dc5);
+    height: 30px;
+    font-size: 20px;
+    text-align: left;
+    padding: 7px 0px 0px 20px;
+    margin-top: 25px;
+  }
+
